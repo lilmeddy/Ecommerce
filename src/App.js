@@ -6,7 +6,7 @@ import * as yup from "yup";
 
 const App = () => {
   const navigate = useNavigate();
-  const url = "http://localhost:12000/users/signup";
+  const url = "http://localhost:15000/users/signup";
   const formik = useFormik({
     initialValues: {
       email: "",
