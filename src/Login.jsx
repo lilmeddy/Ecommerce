@@ -26,12 +26,14 @@ const Login = () => {
                 alert("User not found")
             }else{
                 axios.post(url, values).then((res)=>{
-                    console.log(res.data.token);
-                    localStorage.setItem("AppToken", res.data.token)
+                    console.log(res);
+                    alert(res.data.message)
+                    // localStorage.setItem("AppToken", res.data.token)
                     alert("Registration Successfull")
                     // navigate("/dashboard")
                 }).catch((err)=>{
                     console.log(err);
+                    alert(err.res.data.message)
                 })
             }
             // UserRequest.post("/endpoint", data).then(())
