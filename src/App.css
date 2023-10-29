@@ -56,7 +56,8 @@ input{
     padding: 5px;
     font-size: 18px;
     margin:6px auto;
-    background-color: transparent;   
+    background-color: transparent; 
+    border-radius: 3px;  
 }
 small{
     display: block;
