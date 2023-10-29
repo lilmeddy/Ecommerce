@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    top: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.bar {
+    width: 200px;
+    height: 10px;
+    background-color: transparent;
+    margin-top: 10px;
+    border-radius: 25px;
+    position: relative;
+}
+
+.bar span {
+    /* width: 50%; */
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 1.5px 2px 2.5px #fff;
+}
+.css {
+    width: 85%;
+    animation: css 3s;
+}
+@keyframes css {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 85%;
+    }
+}
