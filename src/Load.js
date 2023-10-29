@@ -16,9 +16,9 @@ const Load = () => {
     <>
       <div className="loader">
         {loading ? (
-            <main>
+            <main className="shit">
                 <div className="img">
-                    <img src={require("./Images/Ace2.jpeg")} alt="" />
+                    {/* <img src={require("./Images/Ace2.jpeg")} alt="" /> */}
                 </div>
             <h1>ACE</h1>
           <div className="bar">

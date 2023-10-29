@@ -60,7 +60,8 @@ const App = () => {
   return (
     <>
       <>
-        <form
+      <main>
+      <form
           onSubmit={formik.handleSubmit}
         >
           <h2>Sign Up</h2>
@@ -191,6 +192,8 @@ const App = () => {
             Submit
           </button>
         </form>
+      </main>
+       
       </>
     </>
   );
