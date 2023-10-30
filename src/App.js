@@ -172,7 +172,7 @@ const App = () => {
           </div>
           
           <div className="">
-            <div className="relative z-0 w-full mb-6 group">
+            <div className="inp-flex">
               <input
                 onChange={formik.handleChange}
                 value={formik.values.phone}
@@ -180,9 +180,12 @@ const App = () => {
                 className="check"
                 required
               />
-              <label for="">
-              By clicking this you agree to the Terms and conditions of <br /> Aceplex. 
-              </label>
+              <label for="" >
+              By clicking this you agree to the <span className="terms">Terms and conditions</span>  of
+            <br />  Aceplex.
+              
+              </label> 
+              
             </div>
         
           </div>
