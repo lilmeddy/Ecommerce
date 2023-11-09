@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Load from './Load';
-import App from './App';
-import Login from './Login';
+import App from './Validation/App';
+import Login from './Validation/Login';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Route,Routes} from 'react-router-dom'
 
