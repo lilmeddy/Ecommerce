@@ -119,6 +119,7 @@ margin: auto;
     background-color: #fff;
     font-weight: 600;
     margin-top: 10px;
+    /* color: blue; */
 }
 .aceBut button:hover{
     color: #fff;
@@ -132,4 +133,10 @@ margin: auto;
     display: flex;
     color: #fff;
     font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.hrOr hr{
+    width: 24%;
+    margin: 0 6px;
 }

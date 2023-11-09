@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useFormik } from "formik";
 import { useNavigate } from "react-router-dom";
+import { Link } from 'react-router-dom'
 import * as yup from "yup";
 import "./App.css";
 
@@ -185,13 +186,13 @@ const App = () => {
             <div className="aceBut">
               <button
                 type="submit"
-                className="text-balck bg-white-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 "
+                className="text-blue bg-white-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 "
               >
                 Sign Up
               </button>
             </div>
             <div className="appAcc">
-              <p>Already have an account? <strong>Log In</strong> </p>
+              <p>Already have an account? <strong><Link to ="/login">Log In</Link> </strong> </p>
             </div>
             <div className="hrOr"><hr /> OR <hr /></div>
           </form>
