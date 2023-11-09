@@ -128,3 +128,8 @@ margin: auto;
     text-align: center;
     margin-top: 10px;
 }
+.hrOr{
+    display: flex;
+    color: #fff;
+    font-size: 25px;
+}

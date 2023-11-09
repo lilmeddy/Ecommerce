@@ -193,6 +193,7 @@ const App = () => {
             <div className="appAcc">
               <p>Already have an account? <strong>Log In</strong> </p>
             </div>
+            <div className="hrOr"><hr /> OR <hr /></div>
           </form>
         </main>
       </>
