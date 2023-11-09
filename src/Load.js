@@ -8,7 +8,7 @@ const Load = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-      navigate("/app");
+      navigate("/sign");
     }, 3000);
   }, [navigate]);
 

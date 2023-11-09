@@ -6,7 +6,7 @@
 }
 body{
     /* height: 100vh; */
-    background-color: #f2f2f2;
+    background-color: rgb(64,64,64);
    
 
 }
@@ -20,25 +20,31 @@ main{
 form{
     width: fit-content;
     height: fit-content;
-    padding: 20px;
+    padding: 30px;
+  box-shadow: 2px 2px 4px  #333333c2;
     background-color: #333;
-    border-radius: 5px;
+    border-radius: 10px;
     
 }
 h2{
     color: #fff;
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: 600;
     padding: 3px;
+    margin-bottom: 5px;
+
     /* text-align: center; */
 }
 .nameFlex{
-    width: 95%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    /* border: 1px solid green; */
 }
 .nameFlex input{
-    width: 170px;
+    width: 96%;
     height: 35px;
+    margin: 10px 0;
     border-radius: 3px;
     outline: none;
     border: 2px solid white;
@@ -47,31 +53,78 @@ h2{
     /* margin: 0px; */
     background-color: transparent;
 }
-input{
-    width:95%;
+input:focus-within{
+outline:  3px solid blue;
+border: none;
+}
+ input{
+    width:100%;
     height: 35px;
     border-radius: 3px;
     outline: none;
     border: 2px solid white;
     padding: 5px;
     font-size: 18px;
-    margin:6px auto;
+    margin: 10px auto;
     background-color: transparent; 
-    border-radius: 3px;  
+    border-radius: 3px;
 }
 small{
     display: block;
 }
 .check{
-   width: 24px; 
-   height: 24px;
+   width: 22px; 
+   height: 22px;
    border-radius: 10px;
    margin-right: 4px;
+   margin-left: -2px;
+   cursor: pointer;
+   /* margin: 0px; */
+}
+.inp-flex {
+    width: 96%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-top: 8px;
+    /* border: 1px solid red; */
+    /* justify-content: space-between; */
 }
 .inp-flex label{
-    margin-top: -10px;
-}
+    height: 24px;
+    /* border: 1px solid black; */
+    /* padding: ; */
+} 
 .terms{
-color: blue;
+color: rgb(31, 31, 243);
 cursor: pointer;
+font-weight: 600;
+} 
+.of-ace{
+    line-height: 18px;
+}
+.aceBut{
+    display: flex;
+    justify-content: center;
+}
+.appButt{
+background-color: #fff;
+font-size: 20px;
+border-radius: 15px;
+width: 100px;
+/* padding: 5px; */
+margin: auto;
+}
+.aceBut button{
+    background-color: #fff;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.aceBut button:hover{
+    color: #fff;
+}
+.appAcc{
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
 }

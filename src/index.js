@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import Load from './Load';
 import App from './App';
 import Login from './Login';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Route,Routes} from 'react-router-dom'
-import Load from './Load';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,7 +14,7 @@ root.render(
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Load/>}/>
-      <Route path='/app' element={<App/>}/>
+      <Route path='/sign' element={<App/>}/>
       <Route path='/login' element={<Login/>}/>
 
     </Routes>
