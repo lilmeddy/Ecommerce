@@ -77,7 +77,7 @@ small{
    height: 22px;
    border-radius: 10px;
    /* margin-right:px; */
-   margin-left: -2px;
+   margin-left: 4px;
    cursor: pointer;
    background-color: transparent;
    /* margin: 0px; */
@@ -147,4 +147,9 @@ margin: auto;
 .hrOr hr{
     width: 24%;
     margin: 0 6px;
+}
+.icons{
+   width: 60%;
+   margin: auto;
+   
 }
