@@ -4,6 +4,10 @@ import { useNavigate } from "react-router-dom";
 import { Link } from 'react-router-dom'
 import * as yup from "yup";
 import "./App.css";
+import { SiFacebook } from "react-icons/si";
+import {FcGoogle} from "react-icons/fc"
+import {RiAppleLine} from "react-icons/ri"
+
 
 const App = () => {
   const navigate = useNavigate();
@@ -196,7 +200,9 @@ const App = () => {
             </div>
             <div className="hrOr"><hr /> OR <hr /></div>
             <div className="icons">
-              
+             <p><SiFacebook color="blue" /></p>
+             <p><FcGoogle/></p>
+             <p><RiAppleLine color="white"/></p>
             </div>
           </form>
         </main>
