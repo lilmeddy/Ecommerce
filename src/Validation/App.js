@@ -172,8 +172,8 @@ const App = () => {
                 <p className="of-ace">
                   
                     By clicking this you agree to the
-                    <span className="terms"> Terms and conditions</span>
-                    <br />of Aceplex
+                    <span className="terms"> Terms and conditions of</span>
+                    <br /> Aceplex
                  
                 </p>
               </div>
