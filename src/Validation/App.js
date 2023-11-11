@@ -195,6 +195,9 @@ const App = () => {
               <p>Already have an account? <strong><Link to ="/login">Log In</Link> </strong> </p>
             </div>
             <div className="hrOr"><hr /> OR <hr /></div>
+            <div className="icons">
+              
+            </div>
           </form>
         </main>
       </>
