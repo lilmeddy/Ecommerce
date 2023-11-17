@@ -20,7 +20,7 @@ main{
 form{
     width: fit-content;
     height: fit-content;
-    padding: 25px;
+    padding:18px 25px;
   /* box-shadow: 2px 2px 4px  #333333c2; */
     background-color: black;
     border-radius: 5px;
@@ -41,8 +41,11 @@ h2{
     justify-content: space-between;
     /* border: 1px solid green; */
 }
+small{
+    color: #fff;
+}
 .nameFlex input{
-    width: 96%;
+    width: 97%;
     height: 40px;
     margin: 10px 0;
     border-radius: 3px;
@@ -54,8 +57,9 @@ h2{
     background-color: transparent;
 }
 input:focus-within{
-outline:  3px solid blue;
+outline:  1px solid blue;
 border: none;
+background-color: transparent;
 }
  input{
     width:100%;
@@ -69,28 +73,39 @@ border: none;
     background-color: transparent; 
     border-radius: 3px;
 }
+::placeholder{
+    font-weight: lighter;
+    font-size: smaller;
+}
 small{
     display: block;
 }
+
+
 .check{
-   width: 22px; 
-   height: 22px;
+   width: 20px; 
+   height: 20px;
    border-radius: 10px;
-   /* margin-right:px; */
+   /* margin-right:-4px; */
    margin-left: 4px;
    cursor: pointer;
-   background-color: transparent;
+   background-color: black;
+   color: transparent;
+   
    /* margin: 0px; */
 }
+.check:focus-within{
+    outline: none;
+    border: none;
+    }
 .inp-flex {
     width: 98%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     color: #fff;
     margin-top: 8px;
-    /* border: 1px solid red; */
-    /* justify-content: space-between; */
+    /* border: 1px solid red;A */
 }
 .inp-flex label{
     height: 24px;
@@ -98,14 +113,16 @@ small{
     /* padding: ; */
 } 
 .terms{
-color: rgb(31, 31, 243);
+color: rgba(190, 31, 243, 0.224);
 cursor: pointer;
 font-weight: 600;
 } 
 .of-ace{
-    line-height: 18px;
+    line-height: 20px;
     font-size: 15px;
     font-weight: lighter;
+
+    letter-spacing: 0.5px;
     /* font-family: cursive; */
 }
 .aceBut{
@@ -124,17 +141,25 @@ margin: auto;
     background-color: #fff;
     font-weight: 400;
     font-size: 20px;
-    margin-top: 5px;
-    padding: 14px 21px;
+    font-weight: 700;
+    margin: 5px 0;
+    padding: 10px 30px;
     /* color: blue; */
 }
 .aceBut button:hover{
     color: #fff;
+    background-color:  rgba(190, 31, 243, 0.101);
 }
 .appAcc{
     color: #fff;
     text-align: center;
     margin-top: 10px;
+}
+.appAcc p{
+    font-weight: lighter;
+}
+.appAcc strong{
+    font-weight: 700;
 }
 .hrOr{
     display: flex;
@@ -142,19 +167,19 @@ margin: auto;
     font-size: 20px;
     justify-content: center;
     align-items: center;
-    margin-top: 2px;
+    margin-top: 4px;
 }
 .hrOr hr{
-    width: 24%;
+    width: 18%;
     margin: 0 6px;
 }
 .icons{
-   width: 45%;
+   width: 50%;
    margin: auto;
    display: flex;
    justify-content: space-between;
    /* align-items: center; */
-   margin-top: 8px;
+   margin-top: 4px;
 }
 .icons p{
     font-size: 30px;

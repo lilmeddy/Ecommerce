@@ -4,9 +4,9 @@ import { useNavigate } from "react-router-dom";
 import { Link } from 'react-router-dom'
 import * as yup from "yup";
 import "./App.css";
-import { SiFacebook } from "react-icons/si";
+import { BiLogoFacebookCircle } from "react-icons/bi";
 import {FcGoogle} from "react-icons/fc"
-import {RiAppleLine} from "react-icons/ri"
+import {GrApple} from "react-icons/gr"
 
 
 const App = () => {
@@ -170,10 +170,12 @@ const App = () => {
                   required
                 />
                 <p className="of-ace">
-                  
-                    By clicking this you agree to the
-                    <span className="terms"> Terms and conditions of</span>
+                  <i>
+                  By clicking this you agree to the
+                    <span className="terms"> Terms and conditions </span>of
                     <br /> Aceplex
+                  </i>
+                   
                  
                 </p>
               </div>
@@ -200,9 +202,9 @@ const App = () => {
             </div>
             <div className="hrOr"><hr /> OR <hr /></div>
             <div className="icons">
-             <p><SiFacebook color="blue" /></p>
+             <p><BiLogoFacebookCircle color="blue" /></p>
              <p><FcGoogle/></p>
-             <p><RiAppleLine color="white"/></p>
+             <p><GrApple color="white"/></p>
             </div>
           </form>
         </main>
