@@ -59,13 +59,14 @@ const App = () => {
         })
         .catch((err) => {
           console.log(err);
+          alert(error.response.data.message)
         });
     },
   });
   return (
     <>
       <>
-        <main>
+        <main className="appMain">
           <form onSubmit={formik.handleSubmit}>
             <h2>Sign Up</h2>
             <div className="nameFlex">

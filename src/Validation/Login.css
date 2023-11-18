@@ -1,0 +1,32 @@
+.logMain{
+    color: #fff;
+}
+.LogFlex{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 8px;
+}
+.i
+.logRem{
+    margin-left: 10px;
+}
+.aceButt{
+    display: flex;
+    justify-content: center;
+}
+.aceButt button{
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 0;
+    padding: 10px 30px;
+    /* color: blue; */
+}
+.aceButt button:hover{
+    color: #fff;
+    background-color:  rgba(190, 31, 243, 0.101);
+}
