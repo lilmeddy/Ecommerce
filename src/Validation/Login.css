@@ -9,24 +9,42 @@
     color: #fff;
     margin-top: 8px;
 }
-.i
+
 .logRem{
     margin-left: 10px;
 }
-.aceButt{
+.inpLog{
+    display: flex;
+    align-items: center;
+}
+.logButt{
     display: flex;
     justify-content: center;
 }
-.aceButt button{
+.logButt button{
     background-color: #fff;
     font-weight: 400;
     font-size: 20px;
     font-weight: 700;
     margin: 5px 0;
-    padding: 10px 30px;
+    padding: 10px 55px;
+    width: 100%;
+    color: black;
     /* color: blue; */
 }
-.aceButt button:hover{
+.logButt button:hover{
     color: #fff;
     background-color:  rgba(190, 31, 243, 0.101);
+}
+.hrOrr{
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+}
+.hrOrr hr{
+    width: 20%;
+    margin: 0 6px;
 }

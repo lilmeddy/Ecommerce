@@ -1,0 +1,31 @@
+{
+  "create": [
+    {
+      "email": "osamedeaghedo1806@gmail.com",
+      "password": "osamede",
+      "c_password": "osamede",
+      "firstName": "Osamede",
+      "lastName": "Aghedo",
+      "phone": "090-523-2345",
+      "id": 1
+    }
+   
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

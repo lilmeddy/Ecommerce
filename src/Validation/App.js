@@ -11,7 +11,8 @@ import {GrApple} from "react-icons/gr"
 
 const App = () => {
   const navigate = useNavigate();
-  const url = "http://localhost:15000/users/signup";
+  const url = "http://localhost:3000/create"
+  // const url = "http://localhost:15000/users/signup";
   const formik = useFormik({
     initialValues: {
       email: "",
@@ -54,12 +55,13 @@ const App = () => {
         .post(url, values)
         .then((res) => {
           console.log(res);
+          
           alert("Registration Successfull");
           navigate("/login");
         })
         .catch((err) => {
           console.log(err);
-          alert(error.response.data.message)
+          alert(err.response.data.message)
         });
     },
   });

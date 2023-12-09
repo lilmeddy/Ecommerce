@@ -72,6 +72,7 @@ background-color: transparent;
     margin: 10px auto;
     background-color: transparent; 
     border-radius: 3px;
+    color: #fff;
 }
 ::placeholder{
     font-weight: lighter;

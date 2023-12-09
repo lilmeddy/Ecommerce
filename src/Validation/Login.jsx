@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { setAuthToken } from "../services/http";
 import { useFormik } from 'formik'
 import * as yup from "yup"
 import axios from 'axios'
@@ -9,11 +10,12 @@ import {GrApple} from "react-icons/gr"
 import "./Login.css"
 import { Link } from 'react-router-dom'
 // import { UserRequest } from '../services/http'
-// import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 const Login = () => {
-    // const navigate = useNavigate()
-    const url = "http://localhost:15000/users/login"
+    const navigate = useNavigate()
+    const url = "http://localhost:3000/create"
+    // const url = "http://localhost:15000/users/login"
     const [allUser, setallUser] = useState([])
     const formik = useFormik({
         initialValues: {
@@ -28,21 +30,24 @@ const Login = () => {
             console.log(values);
             let found = allUser.find((el)=> el.email === values.email && el.password === values.password)
             console.log(found);
-            if(found === "undefined"){
-                alert("User not found")
-            }else{
-                axios.post(url, values).then((res)=>{
+            if (found){
+                axios.get(url, values).then((res)=>{
                     console.log(res);
                     alert(res.data.message)
-                    // localStorage.setItem("AppToken", res.data.token)
+                    const token = res.data.token;
+                    localStorage.setItem("AppToken", token);
+                    setAuthToken(token);
                     alert("Registration Successfull")
-                    // navigate("/dashboard")
+                    navigate("/dashboard")
                 }).catch((err)=>{
                     console.log(err);
-                    alert(err.res.data.message)
+                    console.log(err.res.data.message)
                 })
             }
-            // UserRequest.post("/endpoint", data).then(())
+           else {
+        alert("User not found");
+      }
+
         }
     })
     useEffect(() => {
@@ -111,18 +116,18 @@ const Login = () => {
                 <Link to="/">Forgot password?</Link>
             </div>
             </div>
-            <div className="LogButt">
+            <div className="logButt">
               <button
                 type="submit"
                 className="text-blue bg-white-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 "
               >
-                Sign In
+                Login
               </button>
               </div>
               <div className="appAcc">
               <p>Don't have an account yet? <strong><Link to ="/sign">Log In</Link> </strong> </p>
             </div>
-            <div className="hrOr"><hr /> OR <hr /></div>
+            <div className="hrOrr"><hr /> OR <hr /></div>
             <div className="icons">
              <p><BiLogoFacebookCircle color="blue" /></p>
              <p><FcGoogle/></p>
@@ -130,6 +135,12 @@ const Login = () => {
             </div>
             </form>
     </main>
+    {/* <div className='logDiv'>
+      <div className='logImg'>
+      <img src={require("../Images/Ace1.jpeg")} alt="" /> 
+      </div> */}
+    
+    {/* </div> */}
     </>
   )
 }
