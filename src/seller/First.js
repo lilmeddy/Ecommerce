@@ -6,7 +6,42 @@ const First = () => {
   
     <>
     <main className='firstMain'>
-
+   <form action="">
+    <h1 className='firsth1'>BECOME A SELLER</h1>
+    <p>You're almost there. Just fill this form</p>
+    <div className="firstNum">
+     <p className='actNum'>1</p>
+     <hr />
+     <p className='actNum'>2</p>
+     <hr />
+     <p className='actNum'>3</p>
+    </div>
+    <input type="text" name="" id=""  placeholder='Business Name'/>
+    <div className="fistBuss">
+        <div className="firstLogo">
+            <h1>Add your business Logo</h1>
+            <div className="dash">
+                <div>
+                <img
+                src={require("../Images/Group.png")}
+                
+                alt=""
+                id="profileImage"
+             
+              />
+            <input
+                type="file"
+                id="fileInput"
+                accept="image/*"
+                />
+                </div>
+                <div className="barFirst">
+                <span className="loadFirst"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+   </form>
     </main>
     </>
   )

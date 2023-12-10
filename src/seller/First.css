@@ -1,4 +1,40 @@
 *{
     padding: 0;
     margin: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+
+.barFirst {
+    width: 100px;
+    height: 10px;
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius:10px;
+    position: relative;
+   
+}
+
+.barFirst span {
+    width: 98%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: blue;
+    border-radius: 10px;
+    /* box-shadow: 1.5px 2px 2.5px #fff; */
+}
+.loadFirst {
+    width: 95%;
+    animation: load 3s infinite;
+}
+@keyframes load {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 95%;
+    }
 }

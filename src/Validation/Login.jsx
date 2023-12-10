@@ -111,7 +111,7 @@ const Login = () => {
             <div className="logButt">
               <button
                 type="submit"
-                className="text-blue bg-white-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 "
+                className="text-blue bg-white-700  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 "
               >
                 Login
               </button>
@@ -126,13 +126,20 @@ const Login = () => {
              <p><GrApple color="white"/></p>
             </div>
             </form>
-    </main>
-    {/* <div className='logDiv'>
+            {/* <div className='logDiv'>
       <div className='logImg'>
-      <img src={require("../Images/Ace1.jpeg")} alt="" /> 
-      </div> */}
+        
+      <img src={require("../Images/Ace2.jpeg")} alt="" className='logAce'/> 
+      <div className='logAbs'>
+      <img src={require("../Images/image 3.png")} alt="" /> 
+
+        </div>
+
+      </div> 
     
-    {/* </div> */}
+     </div>  */}
+    </main>
+    
     </>
   )
 }

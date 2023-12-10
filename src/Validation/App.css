@@ -23,7 +23,8 @@ form{
     padding:18px 25px;
   /* box-shadow: 2px 2px 4px  #333333c2; */
     background-color: black;
-    border-radius: 5px;
+    border-radius: 3px;
+    color: #fff;
     
 }
 h2{
