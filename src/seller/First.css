@@ -17,7 +17,7 @@
 }
 
 .barFirst span {
-    width: 98%;
+    width: 100%;
     height: 100%;
     position: absolute;
     left: 0;
@@ -26,15 +26,15 @@
     /* box-shadow: 1.5px 2px 2.5px #fff; */
 }
 .loadFirst {
-    width: 95%;
-    animation: load 3s infinite;
+    width: 100%;
+    animation: load 3s ease-in-out ;
 }
 @keyframes load {
     0% {
-        width: 0;
+        width: 0px;
     }
 
     100% {
-        width: 95%;
+        width: 100%;
     }
 }

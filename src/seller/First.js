@@ -39,7 +39,25 @@ const First = () => {
                 <span className="loadFirst"></span>
                 </div>
             </div>
+            <div className="firstRule">
+                <div>
+                    <img src={require("../Images/Vector.png")} alt="" />
+                </div>
+                <div>
+                    <ol>
+                        <li>Make sure your logo is visible</li>
+                        <li>Not too much flashy colors</li>
+                        <li>A PNG, JPEG is advisible</li>
+                        <li>This is for your brand</li>
+                    </ol>
+                </div>
+            </div>
         </div>
+    </div>
+    <div className='firstArea'>
+ <p>Business Desciption</p>
+ <textarea name="" id="" cols="30" rows="10" placeholder='(At least 459 words)'></textarea>
+ <button type='submit'>Next</button>
     </div>
    </form>
     </main>
