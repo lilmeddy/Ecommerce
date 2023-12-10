@@ -5,6 +5,7 @@ import Load from './Load';
 import App from './Validation/App';
 import Dashboard from './Dashboard';
 import Login from './Validation/Login';
+import First from './seller/First'
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Route,Routes} from 'react-router-dom'
 
@@ -17,6 +18,7 @@ root.render(
       <Route path='/' element={<Load/>}/>
       <Route path='/sign' element={<App/>}/>
       <Route path='/login' element={<Login/>}/>
+      <Route path='/first' element={<First/>}/>
       <Route path='/dashboard' element={<Dashboard/>}/>
 
     </Routes>

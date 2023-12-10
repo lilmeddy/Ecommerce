@@ -11,8 +11,8 @@ import {GrApple} from "react-icons/gr"
 
 const App = () => {
   const navigate = useNavigate();
-  const url = "http://localhost:3000/create"
-  // const url = "http://localhost:15000/users/signup";
+  // const url = "http://localhost:3000/create"
+  const url = "http://localhost:15000/auth/signup";
   const formik = useFormik({
     initialValues: {
       email: "",

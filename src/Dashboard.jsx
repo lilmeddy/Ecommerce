@@ -21,9 +21,8 @@ const Dashboard = () => {
   }, []);
   return (
     <>
-    <h1>Become a seller</h1>
     
- {/* <h1>Welcome to the Dashboard!</h1>
+ <h1>Welcome to the Dashboard!</h1>
       {userData ? (
         <div>
           <p>Hello, {userData.firstName}!</p>
@@ -31,7 +30,7 @@ const Dashboard = () => {
         </div>
       ) : (
         <p>Loading user data...</p>
-      )} */}
+      )}
     </>
   )
 }

@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import { setAuthToken } from "../services/http";
+// import React, { useEffect, useState } from 'react'
+// import { setAuthToken } from "../services/http";
 import { useFormik } from 'formik'
 import * as yup from "yup"
 import axios from 'axios'
@@ -14,9 +14,9 @@ import { useNavigate } from 'react-router-dom'
 
 const Login = () => {
     const navigate = useNavigate()
-    const url = "http://localhost:3000/create"
-    // const url = "http://localhost:15000/users/login"
-    const [allUser, setallUser] = useState([])
+   
+    const url = "http://localhost:15000/auth/login"
+    // const [allUser, setallUser] = useState([])
     const formik = useFormik({
         initialValues: {
             email: "",
@@ -27,37 +27,29 @@ const Login = () => {
             password: yup.string().required("Password field cannot be empty").min(6, "Password must be at least 6 characters").max(8, "Password must not be more than 8 characters"),
         })
         ,onSubmit(values){
+           
             console.log(values);
-            let found = allUser.find((el)=> el.email === values.email && el.password === values.password)
-            console.log(found);
-            if (found){
-                axios.get(url, values).then((res)=>{
-                    console.log(res);
-                    alert(res.data.message)
-                    const token = res.data.token;
-                    localStorage.setItem("AppToken", token);
-                    setAuthToken(token);
-                    alert("Registration Successfull")
-                    navigate("/dashboard")
+            axios
+              .post(url, values)
+              .then((res) => {
+                console.log(res);
+                
+                alert("Registration Successfull");
+                navigate("/dashboard");
+           
                 }).catch((err)=>{
                     console.log(err);
-                    console.log(err.res.data.message)
+                    console.log(err.response.data.message)
+                   
                 })
-            }
-           else {
-        alert("User not found");
-      }
+            // }
+          //  else {
+       
+      // }
 
         }
     })
-    useEffect(() => {
-        axios.get(url).then((res)=>{
-            console.log(res.data);
-            setallUser(res.data)
-        }).catch((err)=>{
-            console.log(err);
-        })
-    }, [])
+
   return (
     <>
     <main className='logMain'>
