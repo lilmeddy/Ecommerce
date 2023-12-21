@@ -14,13 +14,18 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;
-    padding: 10px;
+    /* background-color: #000; */
+    padding: 15px;
     
 }
 .dashHead img{
     width: 150px;
 }
 .dashHeads{
-    
+    background-color: rgb(2 0,26,79);
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
 }

@@ -27,7 +27,10 @@ const Dashboard = () => {
         <img src={require("../Images/ACE (1).png")} alt="" />
       </header>
       <header className='dashHeads'>
-
+         <nav className="left">
+          <div><img src={require("../Images/carbon_location.png")} alt="" /></div>
+          <p>No 22, orogun Ibadan</p>
+         </nav>
       </header>
     </section>
 {/*     
