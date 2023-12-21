@@ -1,29 +1,28 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import Load from './Load';
-import App from './Validation/App';
-import Dashboard from './Dashboard';
-import Login from './Validation/Login';
-import First from './seller/First'
-import reportWebVitals from './reportWebVitals';
-import {BrowserRouter, Route,Routes} from 'react-router-dom'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import Load from "./Load";
+import App from "./Validation/App";
+import Dashboard from "./buyer/Dashboard";
+import Login from "./Validation/Login";
+import First from "./seller/First";
+import Second from "./seller/Second";
+import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-    <Routes>
-      <Route path='/' element={<Load/>}/>
-      <Route path='/sign' element={<App/>}/>
-      <Route path='/login' element={<Login/>}/>
-      <Route path='/first' element={<First/>}/>
-      <Route path='/dashboard' element={<Dashboard/>}/>
-
-    </Routes>
+      <Routes>
+        <Route path="/" element={<Load />} />
+        <Route path="/sign" element={<App />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/first" element={<First />} />
+        <Route path="/second" element={<Second />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
     </BrowserRouter>
-   
   </React.StrictMode>
 );
 

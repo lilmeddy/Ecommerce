@@ -1,145 +1,144 @@
-*{
-    padding: 0;
-    margin: 0;
-    top: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  top: 0;
+  box-sizing: border-box;
 }
-.formFirst{
-    width: 620px;
+.formFirst {
+  width: 620px;
 }
 
-.firsth1{
-    text-align: center;
-    font-weight: 600;
-    font-size: 25px;
-    /* margin-bottom: 3px; */
+.firsth1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+  /* margin-bottom: 3px; */
 }
-.firstp{
-    margin-top: -2px;
-    text-align: center;
+.firstp {
+  margin-top: -2px;
+  text-align: center;
 }
-.firstNum{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 10px 0;
+.firstNum {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px 0;
 }
-.firstNum hr{
-    width: 39%;
-
+.firstNum hr {
+  width: 39%;
 }
-.firstNum p{
-    border: 1px solid #fff;
-   padding: auto;
-   width: 27px;
-   height: 27px;
-    border-radius: 27px;
-    text-align: center;
+.firstNum p {
+  border: 1px solid #fff;
+  padding: auto;
+  width: 27px;
+  height: 27px;
+  border-radius: 27px;
+  text-align: center;
 }
-.actNum{
-    background-color: #fff;
-    color: #000
+.actNum {
+  background-color: #fff;
+  color: #000;
 }
-.fistBuss{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 15px 0;
-    /* border: 1px solid red; */
+.fistBuss {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+  /* border: 1px solid red; */
 }
-.firstLogo h1{
-    font-size:  20px;
-    font-weight: 600;
-    margin-top: -10px;
+.firstLogo h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: -10px;
 }
-.dash{
-    width: 200px;
-    height: 60px;
-    padding: 5px;
-    margin-top: 10px;
-    border-radius: 5px;
-    border: 1px dashed #fff;
-    /* border-style: ridge; */
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.dash {
+  width: 200px;
+  height: 60px;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px dashed #fff;
+  /* border-style: ridge; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-.dash img{
-    height: 40px;
+.dash img {
+  height: 40px;
 }
-.firstRule{
-    display: flex;
-    justify-content: space-between;
+.firstRule {
+  display: flex;
+  justify-content: space-between;
 }
-.firstRule .vec{
-    width: 100px;
-    height: 100px;
-    background-color: #fff;
-    margin-right: 10px;
-    border: 0px solid transparent;
+.firstRule .vec {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  margin-right: 10px;
+  border: 0px solid transparent;
 }
-.firstRule img{
-    width: 100%;
-    height: 100%;
-    border: 0px solid transparent;
+.firstRule img {
+  width: 100%;
+  height: 100%;
+  border: 0px solid transparent;
 }
-.firstRule li{
-    font-size: 14px;
-    line-height: 25px;
+.firstRule li {
+  font-size: 14px;
+  line-height: 25px;
 }
 .barFirst {
-    width: 100px;
-    height: 10px;
-    background-color: #fff;
-    margin-top: 10px;
-    border-radius:10px;
-    position: relative;
-   
+  width: 100px;
+  height: 10px;
+  background-color: #fff;
+  margin-top: 10px;
+  border-radius: 10px;
+  position: relative;
 }
 
 .barFirst span {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    background-color: blue;
-    border-radius: 10px;
-    /* box-shadow: 1.5px 2px 2.5px #fff; */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background-color: blue;
+  border-radius: 10px;
+  /* box-shadow: 1.5px 2px 2.5px #fff; */
 }
 .loadFirst {
-    width: 100%;
-    animation: load 3s ease-in-out infinite ;
+  width: 100%;
+  animation: load 3s ease-in-out infinite;
 }
 @keyframes load {
-    0% {
-        width: 0px;
-    }
+  0% {
+    width: 0px;
+  }
 
-    100% {
-        width: 100%;
-    }
-}
-.firstArea{
+  100% {
     width: 100%;
-    border: 1px solid white;
-    padding: 5px;
+  }
 }
-.formFirst textarea{
-    width: 100%;
-    height: 60px;
-    background-color: transparent;
-    /* color: #fff; */
+.firstArea {
+  width: 100%;
+  border: 1px solid white;
+  padding: 5px;
 }
-.firstButt{
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 15px;
+.formFirst textarea {
+  width: 100%;
+  height: 60px;
+  background-color: transparent;
+  /* color: #fff; */
 }
-.firstButt button{
-    background-color: #fff;
-    color: #000;
-    border-radius:8px;
-    padding: 6px 10px;
-    font-size: 15px;
-    cursor: pointer;
+.firstButt {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+.firstButt button {
+  background-color: #fff;
+  color: #000;
+  border-radius: 13px;
+  padding: 15px 25px;
+  font-size: 20px;
+  /* font-weight: 600; */
+  cursor: pointer;
 }

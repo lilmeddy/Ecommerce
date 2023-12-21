@@ -1,0 +1,49 @@
+.secEnt h1{
+ font-weight: 600;
+ font-size: 25px;
+ margin-left: 10px;
+ margin-top: 5px;
+}
+.secEnt input{
+    width: 93%;
+    margin: 10px 6%;
+    /* margin-bottom: 15px; */
+}
+.secWhy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 0 0;
+}
+.secWhy hr{
+    width: 27%;
+    margin: 10px 0;
+}
+.secWhy p{
+    text-align: center;
+}
+.secButt{
+    display: flex;
+    justify-content: space-between;
+    margin:10px ;
+}
+.secNext {
+    background-color: #fff;
+    color: #000;
+    border-radius: 13px;
+    padding: 12px 20px;
+    font-size: 20px;
+    /* font-weight: 600; */
+    cursor: pointer;
+  }
+  .secPre{
+    background-color: transparent;
+    color: #fff;
+    border-radius: 13px;
+    padding: 12px 20px;
+    font-size: 20px;
+    border: 1px solid #fff;
+    /* font-weight: 600; */
+    cursor: pointer;
+  }

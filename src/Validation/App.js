@@ -1,13 +1,12 @@
 import axios from "axios";
 import { useFormik } from "formik";
 import { useNavigate } from "react-router-dom";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 import * as yup from "yup";
 import "./App.css";
 import { BiLogoFacebookCircle } from "react-icons/bi";
-import {FcGoogle} from "react-icons/fc"
-import {GrApple} from "react-icons/gr"
-
+import { FcGoogle } from "react-icons/fc";
+import { GrApple } from "react-icons/gr";
 
 const App = () => {
   const navigate = useNavigate();
@@ -55,13 +54,13 @@ const App = () => {
         .post(url, values)
         .then((res) => {
           console.log(res);
-          
+
           alert("Registration Successfull");
           navigate("/login");
         })
         .catch((err) => {
           console.log(err);
-          alert(err.response.data.message)
+          alert(err.response.data.message);
         });
     },
   });
@@ -81,7 +80,6 @@ const App = () => {
                   id="firstName"
                   placeholder="First name"
                   required
-                  
                 />
                 {formik.errors.firstName ? (
                   <small>{formik.errors.firstName}</small>
@@ -174,12 +172,10 @@ const App = () => {
                 />
                 <p className="of-ace">
                   <i>
-                  By clicking this you agree to the
+                    By clicking this you agree to the
                     <span className="terms"> Terms and conditions </span>of
                     <br /> Aceplex
                   </i>
-                   
-                 
                 </p>
               </div>
               {/* <p className="of-ace">.</p> */}
@@ -201,13 +197,26 @@ const App = () => {
               </button>
             </div>
             <div className="appAcc">
-              <p>Already have an account? <strong><Link to ="/login">Log In</Link> </strong> </p>
+              <p>
+                Already have an account?{" "}
+                <strong>
+                  <Link to="/login">Log In</Link>{" "}
+                </strong>{" "}
+              </p>
             </div>
-            <div className="hrOr"><hr /> OR <hr /></div>
+            <div className="hrOr">
+              <hr /> OR <hr />
+            </div>
             <div className="icons">
-             <p><BiLogoFacebookCircle color="blue" /></p>
-             <p><FcGoogle/></p>
-             <p><GrApple color="white"/></p>
+              <p>
+                <BiLogoFacebookCircle color="blue" />
+              </p>
+              <p>
+                <FcGoogle />
+              </p>
+              <p>
+                <GrApple color="white" />
+              </p>
             </div>
           </form>
         </main>
