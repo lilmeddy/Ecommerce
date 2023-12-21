@@ -1,16 +1,15 @@
-import React, { useEffect, useState } from 'react'
-import './Dashboard.css'
+import React, { useEffect, useState } from "react";
+import "./Dashboard.css";
 // import { UserRequest } from './services/http'
 
-
 const Dashboard = () => {
-  // const [userData, setUserData] = useState(null);  
+  // const [userData, setUserData] = useState(null);
   // useEffect(() => {
-   
+
   //   const fetchUserData = async () => {
   //     try {
-        
-  //       const response = await UserRequest.get("/create");  
+
+  //       const response = await UserRequest.get("/create");
   //       const user = response.data[0]
   //       setUserData(user);
   //     } catch (error) {
@@ -22,21 +21,34 @@ const Dashboard = () => {
   // }, []);
   return (
     <>
-    <section>
-      <header className='dashHead'>
-        <img src={require("../Images/ACE (1).png")} alt="" />
-      </header>
-      <header className='dashHeads'>
-         <nav className="left">
-          <div><img src={require("../Images/carbon_location.png")} alt="" /></div>
-          <p>No 22, orogun Ibadan</p>
-         </nav>
-         <nav className="left">
-          <div><img src={require()} alt="" /></div>
-         </nav>
-      </header>
-    </section>
-{/*     
+      <section>
+        <header className="dashHead">
+          <img src={require("../Images/ACE (1).png")} alt="" />
+        </header>
+        <header className="dashHeads">
+          <nav className="dashLeft">
+            <div>
+              <img src={require("../Images/carbon_location.png")} alt="" />
+            </div>
+            <p>No 22, orogun Ibadan</p>
+          </nav>
+          <nav className="dashLef">
+            <div>
+              <img src={require("../Images/solar_cart-2-linear.png")} alt="" />
+            </div>
+            <div>
+              <img src={require("../Images/material-symbols_bookmark-outline.png")} alt="" />
+            </div>
+            <div>
+              <img src={require("../Images/ic_outline-notifications.png")} alt="" />
+            </div>
+            <div>
+              <img src={require("../Images/iconamoon_profile-fill.png")} alt="" />
+            </div>
+          </nav>
+        </header>
+      </section>
+      {/*     
  <h1>Welcome to the Dashboard!</h1>
       {userData ? (
         <div>
@@ -47,7 +59,7 @@ const Dashboard = () => {
         <p>Loading user data...</p>
       )} */}
     </>
-  )
-}
+  );
+};
 
-export default Dashboard
+export default Dashboard;

@@ -23,9 +23,28 @@ section{
 }
 .dashHeads{
     background-color: rgb(2 0,26,79);
-    height:50px;
+    height:70px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     color: #fff;
+    padding: 6px;
+}
+.dashLeft,
+.dashLef{
+    display: flex;
+    align-items: center;
+}
+.dashLeft div{
+    margin: 10px;
+}
+.dashLeft img{
+    width: 40px;
+}
+.dashLef div{
+    margin: 15px;
+}
+.dashLef img{
+    width: 45px;
+    cursor: pointer;
 }
