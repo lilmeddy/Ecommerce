@@ -6,19 +6,20 @@ import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 
 const First = () => {
+    
   return (
   
     <>
     <main className='firstMain'>
-   <form action="">
+   <form action="" className='formFirst'>
     <h1 className='firsth1'>BECOME A SELLER</h1>
-    <p>You're almost there. Just fill this form</p>
+    <p className='firstp'>You're almost there. Just fill this form</p>
     <div className="firstNum">
      <p className='actNum'>1</p>
      <hr />
-     <p className='actNum'>2</p>
+     <p>2</p>
      <hr />
-     <p className='actNum'>3</p>
+     <p>3</p>
     </div>
     <input type="text" name="" id=""  placeholder='Business Name'/>
     <div className="fistBuss">
@@ -33,34 +34,39 @@ const First = () => {
                 id="profileImage"
              
               />
-            <input
+            {/* <input
                 type="file"
                 id="fileInput"
                 accept="image/*"
-                />
+                /> */}
                 </div>
                 <div className="barFirst">
                 <span className="loadFirst"></span>
                 </div>
+                <div><button>x</button></div>
+            </div>
             </div>
             <div className="firstRule">
-                <div>
+                <div className='vec'>
                     <img src={require("../Images/Vector.png")} alt="" />
                 </div>
                 <div>
-                    <ol>
-                        <li>Make sure your logo is visible</li>
-                        <li>Not too much flashy colors</li>
-                        <li>A PNG, JPEG is advisible</li>
-                        <li>This is for your brand</li>
+                    <ol >
+                        <li>1. Make sure your logo is visible</li>
+                        <li>2. Not too much flashy colors</li>
+                        <li>3. A PNG, JPEG is advisible</li>
+                        <li>4. This is for your brand</li>
                     </ol>
                 </div>
             </div>
         </div>
-    </div>
+    
     <div className='firstArea'>
  <p>Business Desciption</p>
  <textarea name="" id="" cols="30" rows="10" placeholder='(At least 459 words)'></textarea>
+
+    </div>
+    <div className='firstButt'>
  <button type='submit'>Next</button>
     </div>
    </form>
