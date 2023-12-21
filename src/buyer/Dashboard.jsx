@@ -23,8 +23,11 @@ const Dashboard = () => {
   return (
     <>
     <section>
-      <header>
-        
+      <header className='dashHead'>
+        <img src={require("../Images/ACE (1).png")} alt="" />
+      </header>
+      <header className='dashHeads'>
+
       </header>
     </section>
 {/*     
