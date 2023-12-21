@@ -23,7 +23,7 @@ section{
 }
 .dashHeads{
     background-color: rgb(2 0,26,79);
-    height:70px;
+    height:65px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,6 +45,10 @@ section{
     margin: 15px;
 }
 .dashLef img{
-    width: 45px;
+    width: 40px;
     cursor: pointer;
+}
+.dashLook{
+    width: 100%;
+    background-image: url("../Images/Frame 42.png");
 }

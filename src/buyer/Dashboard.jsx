@@ -47,6 +47,9 @@ const Dashboard = () => {
             </div>
           </nav>
         </header>
+        <div className="dashLook">
+          
+        </div>
       </section>
       {/*     
  <h1>Welcome to the Dashboard!</h1>
