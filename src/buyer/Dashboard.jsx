@@ -57,8 +57,11 @@ const Dashboard = () => {
         <div className="dashMain">
           <aside className="dashAside">
             <h1>Categories</h1>
-            <div>
-              
+            <div className="asideDiv">
+           <div className="dashVec">
+            <div><img src={require("../Images/Rectangle 371.png")} alt="" /></div>
+            <p>Vehicle</p>
+           </div>
             </div>
           </aside>
         </div>
