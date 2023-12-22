@@ -21,7 +21,7 @@ const Dashboard = () => {
   // }, []);
   return (
     <>
-      <section>
+      <section className="mainSec">
         <header className="dashHead">
           <img src={require("../Images/ACE (1).png")} alt="" />
         </header>
@@ -37,13 +37,22 @@ const Dashboard = () => {
               <img src={require("../Images/solar_cart-2-linear.png")} alt="" />
             </div>
             <div>
-              <img src={require("../Images/material-symbols_bookmark-outline.png")} alt="" />
+              <img
+                src={require("../Images/material-symbols_bookmark-outline.png")}
+                alt=""
+              />
             </div>
             <div>
-              <img src={require("../Images/ic_outline-notifications.png")} alt="" />
+              <img
+                src={require("../Images/ic_outline-notifications.png")}
+                alt=""
+              />
             </div>
             <div>
-              <img src={require("../Images/iconamoon_profile-fill.png")} alt="" />
+              <img
+                src={require("../Images/iconamoon_profile-fill.png")}
+                alt=""
+              />
             </div>
           </nav>
         </header>
@@ -58,13 +67,49 @@ const Dashboard = () => {
           <aside className="dashAside">
             <h1>Categories</h1>
             <div className="asideDiv">
-           <div className="dashVec">
-            <div><img src={require("../Images/Rectangle 371.png")} alt="" /></div>
-            <p><h4>Vehicle</h4> <p>123,450 ads</p></p>
-           </div>
-           <div><img src={require("../Images/formkit_right.png")} alt="" /></div>
+              <div className="dashVec">
+                <div>
+                  <img
+                    src={require("../Images/Rectangle 371 (1).png")}
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h4>Vehicle</h4> <p>123,450 ads</p>
+                </div>
+              </div>
+              <div>
+                <img src={require("../Images/formkit_right.png")} alt="" />
+              </div>
+            </div>
+            <div className="asideDiv">
+              <div className="dashVec">
+                <div>
+                  <img src={require("../Images/Rectangle 371.png")} alt="" />
+                </div>
+                <div>
+                  <h4>Property</h4> <p>123,450 ads</p>
+                </div>
+              </div>
+              <div>
+                <img src={require("../Images/formkit_right.png")} alt="" />
+              </div>
+            </div>
+            <div className="asideDiv">
+              <div className="dashVec">
+                <div>
+                  <img src={require("../Images/Rectangle 371.png")} alt="" />
+                </div>
+                <div>
+                  <h4>Property</h4> <p>123,450 ads</p>
+                </div>
+              </div>
+              <div>
+                <img src={require("../Images/formkit_right.png")} alt="" />
+              </div>
             </div>
           </aside>
+          <section></section>
         </div>
       </section>
       {/*     
