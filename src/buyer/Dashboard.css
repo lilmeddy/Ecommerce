@@ -43,6 +43,13 @@ section{
 }
 .dashLef div{
     margin: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+.dashLef div:hover{
+    background-color: rgba(130, 130, 130, 0.156);
 }
 .dashLef img{
     width: 40px;
