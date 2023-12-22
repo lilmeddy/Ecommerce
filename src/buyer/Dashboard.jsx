@@ -54,7 +54,11 @@ const Dashboard = () => {
             <input type="text" />
           </div>
         </div>
-        
+        <div className="dashMain">
+          <aside className="dashAside">
+            
+          </aside>
+        </div>
       </section>
       {/*     
  <h1>Welcome to the Dashboard!</h1>
