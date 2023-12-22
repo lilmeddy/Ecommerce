@@ -98,6 +98,52 @@ const Dashboard = () => {
             <div className="asideDiv">
               <div className="dashVec">
                 <div>
+                  <img
+                    src={require("../Images/Rectangle 371 (1).png")}
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h4>Vehicle</h4> <p>123,450 ads</p>
+                </div>
+              </div>
+              <div>
+                <img src={require("../Images/formkit_right.png")} alt="" />
+              </div>
+            </div>
+            <div className="asideDiv">
+              <div className="dashVec">
+                <div>
+                  <img src={require("../Images/Rectangle 371.png")} alt="" />
+                </div>
+                
+                <div>
+                  <h4>Property</h4> <p>123,450 ads</p>
+                </div>
+              </div>
+              <div>
+                <img src={require("../Images/formkit_right.png")} alt="" />
+              </div>
+            </div>
+            <div className="asideDiv">
+              <div className="dashVec">
+                <div>
+                  <img
+                    src={require("../Images/Rectangle 371 (1).png")}
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h4>Vehicle</h4> <p>123,450 ads</p>
+                </div>
+              </div>
+              <div>
+                <img src={require("../Images/formkit_right.png")} alt="" />
+              </div>
+            </div>
+            <div className="asideDiv">
+              <div className="dashVec">
+                <div>
                   <img src={require("../Images/Rectangle 371.png")} alt="" />
                 </div>
                 <div>
@@ -108,8 +154,47 @@ const Dashboard = () => {
                 <img src={require("../Images/formkit_right.png")} alt="" />
               </div>
             </div>
+            <div className="asideDiv">
+              <div className="dashVec">
+                <div>
+                  <img
+                    src={require("../Images/Rectangle 371 (1).png")}
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h4>Vehicle</h4> <p>123,450 ads</p>
+                </div>
+              </div>
+              <div>
+                <img src={require("../Images/formkit_right.png")} alt="" />
+              </div>
+            </div>
+            <div className="asideDiv">
+              <div className="dashVec">
+                <div>
+                  <img src={require("../Images/Rectangle 371.png")} alt="" />
+                </div>
+                
+                <div>
+                  <h4>Property</h4> <p>123,450 ads</p>
+                </div>
+              </div>
+              <div>
+                <img src={require("../Images/formkit_right.png")} alt="" />
+              </div>
+            </div>
           </aside>
-          <section></section>
+          <section className="earnSec">
+        <div className="dashEarn">
+          <div className="dashCash">
+           <img src={require("../Images/Earn Cash with what you don’t use.png")} alt="" />
+          </div>
+          <div className="dashStart">
+
+          </div>
+        </div>
+          </section>
         </div>
       </section>
       {/*     
