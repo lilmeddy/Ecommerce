@@ -60,8 +60,9 @@ const Dashboard = () => {
             <div className="asideDiv">
            <div className="dashVec">
             <div><img src={require("../Images/Rectangle 371.png")} alt="" /></div>
-            <p>Vehicle</p>
+            <p><h4>Vehicle</h4> <p>123,450 ads</p></p>
            </div>
+           <div><img src={require("../Images/formkit_right.png")} alt="" /></div>
             </div>
           </aside>
         </div>
