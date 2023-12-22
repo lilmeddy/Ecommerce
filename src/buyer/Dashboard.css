@@ -54,4 +54,32 @@ section{
     background-image: url(../Images/Frame421.png);
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dashLook h1{
+font-size: 25px;
+font-weight: 700;
+color: #000;
+margin-bottom: 5px
+}
+.dashLook div{
+    display: flex;
+    background-color: #fff;
+    padding: 0px 5px;
+    align-items: center;
+    height: 50px;
+}
+.dashLook div img{
+    width: 30px;
+    height: 40px;
+    cursor: pointer;
+}
+.dashLook div input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #000;
 }
