@@ -12,6 +12,7 @@
 }
 ::-webkit-scrollbar{
     width: 4px;
+    
 }
 .dashHead {
   display: flex;
@@ -41,7 +42,7 @@
   margin: 10px;
 }
 .dashLeft img {
-  width: 40px;
+  width: 35px;
 }
 .dashLef div {
   margin: 15px;
@@ -53,7 +54,7 @@
   background-color: rgba(130, 130, 130, 0.156);
 }
 .dashLef img {
-  width: 40px;
+  width: 35px;
   cursor: pointer;
 }
 .dashLook {
@@ -101,6 +102,7 @@
   background-color: #fff;
   width: 18%;
   padding: 3px;
+  margin-right: -5px;
   border-radius: 2px;
 }
 .dashAside h1 {
@@ -147,14 +149,29 @@ align-items: center;
 }
 .dashCash{
     width: 70%;
-    height: 210px;
+    height: 220px;
     background-image: url(../Images/Frame421.png);
-    padding: 60px ;
+    padding: 65px ;
     border-radius: 3px;
 }
 .dashStart{
     width: 25%;
-    height: 215px;
+    height: 230px;
     background-image: url(../Images/Rectangle370.png);
     border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:4px;
+}
+.dashStart h2 img{
+    width: 200px;
+}
+.dashStart .linkImg{
+    width:120px;
+}
+.dashStart h1 img{
+    width: 80px;
+    margin-top: 5px;
 }

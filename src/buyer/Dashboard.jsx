@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Dashboard.css";
+import { Link } from "react-router-dom";
+
 // import { UserRequest } from './services/http'
 
 const Dashboard = () => {
@@ -116,7 +118,7 @@ const Dashboard = () => {
                 <div>
                   <img src={require("../Images/Rectangle 371.png")} alt="" />
                 </div>
-                
+
                 <div>
                   <h4>Property</h4> <p>123,450 ads</p>
                 </div>
@@ -175,7 +177,7 @@ const Dashboard = () => {
                 <div>
                   <img src={require("../Images/Rectangle 371.png")} alt="" />
                 </div>
-                
+
                 <div>
                   <h4>Property</h4> <p>123,450 ads</p>
                 </div>
@@ -186,27 +188,24 @@ const Dashboard = () => {
             </div>
           </aside>
           <section className="earnSec">
-        <div className="dashEarn">
-          <div className="dashCash">
-           <img src={require("../Images/Earn Cash with what you don’t use.png")} alt="" />
-          </div>
-          <div className="dashStart">
-
-          </div>
-        </div>
+            <div className="dashEarn">
+              <div className="dashCash">
+                <img
+                  src={require("../Images/Earn Cash with what you don’t use.png")}
+                  alt=""
+                />
+              </div>
+              <div className="dashStart">
+                <h2><img src={require("../Images/Start Selling.png")} alt="" /></h2>
+                <Link to="/first"><img src={require("../Images/flat-color-icons_plus.png")} alt="" className="linkImg"/></Link>
+                <h1><img src={require("../Images/Now.png")} alt="" /></h1>
+              </div>
+            </div>
           </section>
+          
         </div>
       </section>
-      {/*     
- <h1>Welcome to the Dashboard!</h1>
-      {userData ? (
-        <div>
-          <p>Hello, {userData.firstName}!</p>
-         
-        </div>
-      ) : (
-        <p>Loading user data...</p>
-      )} */}
+
     </>
   );
 };
