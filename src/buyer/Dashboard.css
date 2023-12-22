@@ -90,3 +90,10 @@ margin-bottom: 5px
     outline: none;
     color: #000;
 }
+.dashMain{
+    display: flex;
+}
+.dashAside{
+    background-color: #fff;
+    width: 15%;
+}

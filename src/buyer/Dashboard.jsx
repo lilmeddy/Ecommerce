@@ -57,7 +57,9 @@ const Dashboard = () => {
         <div className="dashMain">
           <aside className="dashAside">
             <h1>Categories</h1>
-            
+            <div>
+              
+            </div>
           </aside>
         </div>
       </section>
