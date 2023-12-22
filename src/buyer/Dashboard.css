@@ -50,5 +50,8 @@ section{
 }
 .dashLook{
     width: 100%;
-    background-image: url(../Images/Frame42.png);
+    height: 180px;
+    background-image: url(../Images/Frame421.png);
+    background-size: cover;
+    background-position: center;
 }

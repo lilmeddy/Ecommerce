@@ -48,7 +48,11 @@ const Dashboard = () => {
           </nav>
         </header>
         <div className="dashLook">
-          
+          <h1>I am looking for</h1>
+          <div>
+            <img src={require("../Images/ic_sharp-search.png")} alt="" />
+            <input type="text" />
+          </div>
         </div>
       </section>
       {/*     
