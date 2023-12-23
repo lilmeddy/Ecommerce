@@ -196,16 +196,37 @@ const Dashboard = () => {
                 />
               </div>
               <div className="dashStart">
-                <h2><img src={require("../Images/Start Selling.png")} alt="" /></h2>
-                <Link to="/first"><img src={require("../Images/flat-color-icons_plus.png")} alt="" className="linkImg"/></Link>
-                <h1><img src={require("../Images/Now.png")} alt="" /></h1>
+                <h2>
+                  <img src={require("../Images/Start Selling.png")} alt="" />
+                </h2>
+                <Link to="/first">
+                  <img
+                    src={require("../Images/flat-color-icons_plus.png")}
+                    alt=""
+                    className="linkImg"
+                  />
+                </Link>
+                <h1>
+                  <img src={require("../Images/Now.png")} alt="" />
+                </h1>
               </div>
             </div>
+            <div className="dasTop">
+              <h1><img src={require("../Images/Top Sales.png")} alt="" /></h1>
+            </div>
           </section>
-          
         </div>
       </section>
-
+      {/*     
+ <h1>Welcome to the Dashboard!</h1>
+      {userData ? (
+        <div>
+          <p>Hello, {userData.firstName}!</p>
+         
+        </div>
+      ) : (
+        <p>Loading user data...</p>
+      )} */}
     </>
   );
 };
