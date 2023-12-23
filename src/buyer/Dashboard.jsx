@@ -212,7 +212,9 @@ const Dashboard = () => {
               </div>
             </div>
             <div className="dasTop">
-              <h1><img src={require("../Images/Top Sales.png")} alt="" /></h1>
+              <h1><img src={require("../Images/Top Saes.png")} alt="" /></h1>
+              
+
             </div>
           </section>
         </div>

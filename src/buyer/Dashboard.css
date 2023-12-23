@@ -167,14 +167,23 @@ align-items: center;
 }
 .dashStart h2 img{
     width: 200px;
+    cursor: text; 
 }
 .dashStart .linkImg{
     width:120px;
+   
 }
 .dashStart h1 img{
     width: 80px;
     margin-top: 5px;
+    cursor: text;
+
 }
-.dasTop h1{
+.dasTop{
+  width: 97%;
+margin:15px auto;
+}
+.dasTop h1 img{
   /* font-family:; */
+  cursor: text;
 }
