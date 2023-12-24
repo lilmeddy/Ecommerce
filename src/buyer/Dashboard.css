@@ -220,6 +220,7 @@ margin:15px auto;
 .secFoot{
   margin-top: -3px;
   z-index: 10px;
+  position: relative;
 }
 .secAbs{
   position: absolute;

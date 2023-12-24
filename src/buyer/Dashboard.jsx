@@ -221,8 +221,8 @@ const Dashboard = () => {
                  
                   <div className="secFoot">
                     <img src={require("../Images/Rectangle 368.png")} alt="" />
-                    <div>
-                      
+                    <div className="footAbs">
+                   <img src={} alt="" />
                     </div>
                   </div>
                   <div className="secAbs">
