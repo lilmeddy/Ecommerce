@@ -212,21 +212,41 @@ const Dashboard = () => {
               </div>
             </div>
             <div className="dasTop">
-              <h1><img src={require("../Images/Top Sales.png")} alt="" /></h1>
+              <h1>
+                <img src={require("../Images/Top Sales.png")} alt="" />
+              </h1>
               <div className="topSec">
                 <div className="secCont">
                   <div className="sechead">
-                    <img src={require("../Images/unsplash_YApiWyp0lqo.png")} alt="" />
+                    <img
+                      src={require("../Images/unsplash_YApiWyp0lqo.png")}
+                      alt=""
+                    />
                   </div>
-                 
+
                   <div className="secFoot">
                     <img src={require("../Images/Rectangle 368.png")} alt="" />
                     <div className="footAbs">
-                   <img src={} alt="" />
+                      <div>
+                        <img src={require("../Images/Gtr 580.png")} alt="" />
+                      </div>
+                      <div>
+                        <img src={require("../Images/$350,000.png")} alt="" />
+                      </div>
+                      <div className="absFlex">
+                        <img src={require("../Images/Group 551.png")} alt="" />
+                        <img
+                          src={require("../Images/Perfect Condition.png")}
+                          alt=""
+                        />
+                      </div>
                     </div>
                   </div>
                   <div className="secAbs">
-                    <img src={require("../Images/material-symbols_bookmark-outline.png")} alt="" />
+                    <img
+                      src={require("../Images/material-symbols_bookmark-outline.png")}
+                      alt=""
+                    />
                   </div>
                 </div>
               </div>
