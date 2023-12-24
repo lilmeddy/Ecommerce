@@ -223,4 +223,15 @@ margin:15px auto;
 }
 .secAbs{
   position: absolute;
+  z-index: 100;
+  left: 77%;
+  top: 49%;
+  width: 45px;
+  height: 45px;
+
+padding: 5px;
+  background-image: url(../Images/Ellipse11.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover  ;
 }

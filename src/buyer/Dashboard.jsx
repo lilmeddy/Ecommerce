@@ -221,9 +221,12 @@ const Dashboard = () => {
                  
                   <div className="secFoot">
                     <img src={require("../Images/Rectangle 368.png")} alt="" />
+                    <div>
+                      
+                    </div>
                   </div>
                   <div className="secAbs">
-                    
+                    <img src={require("../Images/material-symbols_bookmark-outline.png")} alt="" />
                   </div>
                 </div>
               </div>
