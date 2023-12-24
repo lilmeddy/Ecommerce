@@ -212,9 +212,21 @@ const Dashboard = () => {
               </div>
             </div>
             <div className="dasTop">
-              <h1><img src={require("../Images/Top Saes.png")} alt="" /></h1>
-              
-
+              <h1><img src={require("../Images/Top Sales.png")} alt="" /></h1>
+              <div className="topSec">
+                <div className="secCont">
+                  <div className="sechead">
+                    <img src={require("../Images/unsplash_YApiWyp0lqo.png")} alt="" />
+                  </div>
+                 
+                  <div className="secFoot">
+                    <img src={require("../Images/Rectangle 368.png")} alt="" />
+                  </div>
+                  <div className="secAbs">
+                    
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
         </div>
