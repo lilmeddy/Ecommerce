@@ -242,12 +242,243 @@ const Dashboard = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="secAbs">
+                  <button className="secAbs">
                     <img
                       src={require("../Images/material-symbols_bookmark-outline.png")}
                       alt=""
                     />
+                  </button >
+                </div>
+                <div className="secCont">
+                  <div className="sechead">
+                    <img
+                      src={require("../Images/unsplash_YApiWyp0lqo.png")}
+                      alt=""
+                    />
                   </div>
+
+                  <div className="secFoot">
+                    <img src={require("../Images/Rectangle 368.png")} alt="" />
+                    <div className="footAbs">
+                      <div>
+                        <img src={require("../Images/Gtr 580.png")} alt="" />
+                      </div>
+                      <div>
+                        <img src={require("../Images/$350,000.png")} alt="" />
+                      </div>
+                      <div className="absFlex">
+                        <img src={require("../Images/Group 551.png")} alt="" />
+                        <img
+                          src={require("../Images/Perfect Condition.png")}
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <button className="secAbs">
+                    <img
+                      src={require("../Images/material-symbols_bookmark-outline.png")}
+                      alt=""
+                    />
+                  </button >
+                </div>
+                <div className="secCont">
+                  <div className="sechead">
+                    <img
+                      src={require("../Images/unsplash_YApiWyp0lqo.png")}
+                      alt=""
+                    />
+                  </div>
+
+                  <div className="secFoot">
+                    <img src={require("../Images/Rectangle 368.png")} alt="" />
+                    <div className="footAbs">
+                      <div>
+                        <img src={require("../Images/Gtr 580.png")} alt="" />
+                      </div>
+                      <div>
+                        <img src={require("../Images/$350,000.png")} alt="" />
+                      </div>
+                      <div className="absFlex">
+                        <img src={require("../Images/Group 551.png")} alt="" />
+                        <img
+                          src={require("../Images/Perfect Condition.png")}
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <button className="secAbs">
+                    <img
+                      src={require("../Images/material-symbols_bookmark-outline.png")}
+                      alt=""
+                    />
+                  </button >
+                </div>  
+                <div className="secCont">
+                  <div className="sechead">
+                    <img
+                      src={require("../Images/unsplash_YApiWyp0lqo.png")}
+                      alt=""
+                    />
+                  </div>
+
+                  <div className="secFoot">
+                    <img src={require("../Images/Rectangle 368.png")} alt="" />
+                    <div className="footAbs">
+                      <div>
+                        <img src={require("../Images/Gtr 580.png")} alt="" />
+                      </div>
+                      <div>
+                        <img src={require("../Images/$350,000.png")} alt="" />
+                      </div>
+                      <div className="absFlex">
+                        <img src={require("../Images/Group 551.png")} alt="" />
+                        <img
+                          src={require("../Images/Perfect Condition.png")}
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <button className="secAbs">
+                    <img
+                      src={require("../Images/material-symbols_bookmark-outline.png")}
+                      alt=""
+                    />
+                  </button >
+                </div>
+                <div className="secCont">
+                  <div className="sechead">
+                    <img
+                      src={require("../Images/unsplash_YApiWyp0lqo.png")}
+                      alt=""
+                    />
+                  </div>
+
+                  <div className="secFoot">
+                    <img src={require("../Images/Rectangle 368.png")} alt="" />
+                    <div className="footAbs">
+                      <div>
+                        <img src={require("../Images/Gtr 580.png")} alt="" />
+                      </div>
+                      <div>
+                        <img src={require("../Images/$350,000.png")} alt="" />
+                      </div>
+                      <div className="absFlex">
+                        <img src={require("../Images/Group 551.png")} alt="" />
+                        <img
+                          src={require("../Images/Perfect Condition.png")}
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <button className="secAbs">
+                    <img
+                      src={require("../Images/material-symbols_bookmark-outline.png")}
+                      alt=""
+                    />
+                  </button >
+                </div>
+                <div className="secCont">
+                  <div className="sechead">
+                    <img
+                      src={require("../Images/unsplash_YApiWyp0lqo.png")}
+                      alt=""
+                    />
+                  </div>
+
+                  <div className="secFoot">
+                    <img src={require("../Images/Rectangle 368.png")} alt="" />
+                    <div className="footAbs">
+                      <div>
+                        <img src={require("../Images/Gtr 580.png")} alt="" />
+                      </div>
+                      <div>
+                        <img src={require("../Images/$350,000.png")} alt="" />
+                      </div>
+                      <div className="absFlex">
+                        <img src={require("../Images/Group 551.png")} alt="" />
+                        <img
+                          src={require("../Images/Perfect Condition.png")}
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <button className="secAbs">
+                    <img
+                      src={require("../Images/material-symbols_bookmark-outline.png")}
+                      alt=""
+                    />
+                  </button >
+                </div>
+                <div className="secCont">
+                  <div className="sechead">
+                    <img
+                      src={require("../Images/unsplash_YApiWyp0lqo.png")}
+                      alt=""
+                    />
+                  </div>
+
+                  <div className="secFoot">
+                    <img src={require("../Images/Rectangle 368.png")} alt="" />
+                    <div className="footAbs">
+                      <div>
+                        <img src={require("../Images/Gtr 580.png")} alt="" />
+                      </div>
+                      <div>
+                        <img src={require("../Images/$350,000.png")} alt="" />
+                      </div>
+                      <div className="absFlex">
+                        <img src={require("../Images/Group 551.png")} alt="" />
+                        <img
+                          src={require("../Images/Perfect Condition.png")}
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <button className="secAbs">
+                    <img
+                      src={require("../Images/material-symbols_bookmark-outline.png")}
+                      alt=""
+                    />
+                  </button >
+                </div>
+                <div className="secCont">
+                  <div className="sechead">
+                    <img
+                      src={require("../Images/unsplash_YApiWyp0lqo.png")}
+                      alt=""
+                    />
+                  </div>
+
+                  <div className="secFoot">
+                    <img src={require("../Images/Rectangle 368.png")} alt="" />
+                    <div className="footAbs">
+                      <div>
+                        <img src={require("../Images/Gtr 580.png")} alt="" />
+                      </div>
+                      <div>
+                        <img src={require("../Images/$350,000.png")} alt="" />
+                      </div>
+                      <div className="absFlex">
+                        <img src={require("../Images/Group 551.png")} alt="" />
+                        <img
+                          src={require("../Images/Perfect Condition.png")}
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <button className="secAbs">
+                    <img
+                      src={require("../Images/material-symbols_bookmark-outline.png")}
+                      alt=""
+                    />
+                  </button >
                 </div>
               </div>
             </div>

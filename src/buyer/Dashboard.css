@@ -10,9 +10,8 @@
   background-color: #000;
   /* border: 1px solid black  ; */
 }
-::-webkit-scrollbar{
-    width: 4px;
-    
+::-webkit-scrollbar {
+  width: 4px;
 }
 .dashHead {
   display: flex;
@@ -138,62 +137,60 @@
   font-size: 12px;
   margin-left: 10px;
 }
-.earnSec{
-    width: 75%;
+.earnSec {
+  width: 75%;
 }
-.dashEarn{
-    width: 100%;
-display: flex;
-justify-content: space-around;
-align-items: center;
+.dashEarn {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.dashCash{
-    width: 70%;
-    height: 220px;
-    background-image: url(../Images/Frame421.png);
-    padding: 65px ;
-    border-radius: 3px;
+.dashCash {
+  width: 70%;
+  height: 220px;
+  background-image: url(../Images/Frame421.png);
+  padding: 65px;
+  border-radius: 3px;
 }
-.dashStart{
-    width: 25%;
-    height: 230px;
-    background-image: url(../Images/Rectangle370.png);
-    border-radius: 3px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding:4px;
+.dashStart {
+  width: 25%;
+  height: 230px;
+  background-image: url(../Images/Rectangle370.png);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
 }
-.dashStart h2 img{
-    width: 200px;
-    cursor: text; 
+.dashStart h2 img {
+  width: 200px;
+  cursor: text;
 }
-.dashStart .linkImg{
-    width:120px;
-   
+.dashStart .linkImg {
+  width: 120px;
 }
-.dashStart h1 img{
-    width: 80px;
-    margin-top: 5px;
-    cursor: text;
-
+.dashStart h1 img {
+  width: 80px;
+  margin-top: 5px;
+  cursor: text;
 }
-.dasTop{
+.dasTop {
   width: 97%;
-margin:15px auto;
+  margin: 15px auto;
 }
-.dasTop h1 img{
+.dasTop h1 img {
   /* font-family:; */
   cursor: text;
 }
-.topSec{
+.topSec {
   display: flex;
-  width: 100%;  
+  width: 100%;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.secCont{
+.secCont {
   /* width: 20%; */
   height: fit-content;
   border-radius: 10px;
@@ -202,10 +199,10 @@ margin:15px auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column ;
+  flex-direction: column;
   position: relative;
 }
-.sechead{
+.sechead {
   border: 0.5px solid white;
   width: 100%;
   border-bottom: none;
@@ -217,22 +214,35 @@ margin:15px auto;
   justify-content: center;
   /* padding-bottom: 2px; */
 }
-.secFoot{
+.secFoot {
   margin-top: -3px;
   z-index: 10px;
   position: relative;
 }
-.secAbs{
+.footAbs{
+  position: absolute;
+  /* top: 10%; */
+  left:5%;
+}
+.footAbs div{
+  margin-top: 10px;
+}
+.absFlex{
+  display: flex;
+  width: fit-content;
+}
+
+.secAbs {
   position: absolute;
   z-index: 100;
   left: 77%;
-  top: 49%;
+  top: 50%;
   width: 45px;
   height: 45px;
-
-padding: 5px;
+  padding: 5px;
   background-image: url(../Images/Ellipse11.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover  ;
+  background-size: cover;
 }
+
