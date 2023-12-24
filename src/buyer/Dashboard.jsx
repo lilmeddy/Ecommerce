@@ -627,8 +627,13 @@ const Dashboard = () => {
             </div>
           </section>
         </div>
-        <footer>
-          
+        <footer className="dashFoot">
+            <div className="fottAut">
+              <img src={require("../Images/ACE (1).png")} alt="" />
+            </div>
+            <div className="fotEnd">
+             <img src={require("../Images/Rectangle 389.png")} alt="" />
+            </div>
         </footer>
       </section>
       {/*     

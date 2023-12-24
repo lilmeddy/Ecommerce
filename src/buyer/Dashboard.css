@@ -249,4 +249,12 @@
   background-position: center;
   background-size: cover;
 }
-
+.dashFoot{
+  margin-top: 100px;
+}
+.fottAut{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: -25px;
+}
