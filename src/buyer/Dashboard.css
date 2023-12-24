@@ -105,6 +105,8 @@
   padding: 3px;
   margin-right: -5px;
   border-radius: 2px;
+  position: sticky  ;
+  top: 0;
 }
 .dashAside h1 {
   font-size: 25px;

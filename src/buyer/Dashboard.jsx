@@ -627,6 +627,9 @@ const Dashboard = () => {
             </div>
           </section>
         </div>
+        <footer>
+          
+        </footer>
       </section>
       {/*     
  <h1>Welcome to the Dashboard!</h1>
